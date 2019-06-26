@@ -1,7 +1,7 @@
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 def roll_call_dwarves(array)
-  array.each_with_index.map do |name|
+  array.each_with_index do |name,index|
     puts name
 end
 end
